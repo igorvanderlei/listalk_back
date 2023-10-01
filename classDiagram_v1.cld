@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.2" class="java.beans.XMLDecoder">
+ <object class="br.edu.fasete.javaroad.amaterasuml.model.RootModel" id="RootModel0">
+  <void property="children">
+   <void method="add">
+    <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.ClassModel" id="ClassModel0">
+     <void property="children">
+      <void method="add">
+       <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.AttributeModel">
+        <void property="name">
+         <string>name</string>
+        </void>
+        <void property="parent">
+         <object idref="ClassModel0"/>
+        </void>
+        <void property="type">
+         <string>String</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.AttributeModel">
+        <void property="name">
+         <string>description</string>
+        </void>
+        <void property="parent">
+         <object idref="ClassModel0"/>
+        </void>
+        <void property="type">
+         <string>String</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.AttributeModel">
+        <void property="name">
+         <string>userId</string>
+        </void>
+        <void property="parent">
+         <object idref="ClassModel0"/>
+        </void>
+        <void property="type">
+         <string>String</string>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="constraint">
+      <object class="org.eclipse.draw2d.geometry.Rectangle" id="Rectangle0">
+       <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+        <string>height</string>
+        <void method="set">
+         <object idref="Rectangle0"/>
+         <int>-1</int>
+        </void>
+       </void>
+       <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+        <string>width</string>
+        <void method="set">
+         <object idref="Rectangle0"/>
+         <int>-1</int>
+        </void>
+       </void>
+       <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Rectangle0"/>
+         <int>86</int>
+        </void>
+       </void>
+       <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Rectangle0"/>
+         <int>98</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="name">
+      <string>MyList</string>
+     </void>
+     <void property="parent">
+      <object class="br.edu.fasete.javaroad.amaterasuml.model.RootModel" id="RootModel1">
+       <void property="children">
+        <void method="add">
+         <object idref="ClassModel0"/>
+        </void>
+        <void method="add">
+         <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.ClassModel" id="ClassModel1">
+          <void property="children">
+           <void method="add">
+            <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.AttributeModel">
+             <void property="name">
+              <string>name</string>
+             </void>
+             <void property="parent">
+              <object idref="ClassModel1"/>
+             </void>
+             <void property="type">
+              <string>String</string>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="constraint">
+           <object class="org.eclipse.draw2d.geometry.Rectangle" id="Rectangle1">
+            <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+             <string>height</string>
+             <void method="set">
+              <object idref="Rectangle1"/>
+              <int>-1</int>
+             </void>
+            </void>
+            <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+             <string>width</string>
+             <void method="set">
+              <object idref="Rectangle1"/>
+              <int>-1</int>
+             </void>
+            </void>
+            <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Rectangle1"/>
+              <int>340</int>
+             </void>
+            </void>
+            <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Rectangle1"/>
+              <int>120</int>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="name">
+           <string>Category</string>
+          </void>
+          <void property="parent">
+           <object idref="RootModel1"/>
+          </void>
+          <void property="targetConnections">
+           <void method="add">
+            <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.AssociationModel" id="AssociationModel0">
+             <void property="fromMultiplicity">
+              <string>*</string>
+             </void>
+             <void property="source">
+              <object idref="ClassModel0"/>
+             </void>
+             <void property="target">
+              <object idref="ClassModel1"/>
+             </void>
+             <void property="toMultiplicity">
+              <string>1</string>
+             </void>
+            </object>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.ClassModel" id="ClassModel2">
+          <void property="children">
+           <void method="add">
+            <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.AttributeModel">
+             <void property="name">
+              <string>content</string>
+             </void>
+             <void property="parent">
+              <object idref="ClassModel2"/>
+             </void>
+             <void property="type">
+              <string>String</string>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="constraint">
+           <object class="org.eclipse.draw2d.geometry.Rectangle" id="Rectangle2">
+            <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+             <string>height</string>
+             <void method="set">
+              <object idref="Rectangle2"/>
+              <int>-1</int>
+             </void>
+            </void>
+            <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+             <string>width</string>
+             <void method="set">
+              <object idref="Rectangle2"/>
+              <int>-1</int>
+             </void>
+            </void>
+            <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Rectangle2"/>
+              <int>96</int>
+             </void>
+            </void>
+            <void class="org.eclipse.draw2d.geometry.Rectangle" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Rectangle2"/>
+              <int>280</int>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="name">
+           <string>Item</string>
+          </void>
+          <void property="parent">
+           <object idref="RootModel1"/>
+          </void>
+          <void property="sourceConnections">
+           <void method="add">
+            <object class="br.edu.fasete.javaroad.amaterasuml.classdiagram.model.AssociationModel" id="AssociationModel1">
+             <void property="fromMultiplicity">
+              <string>*</string>
+             </void>
+             <void property="source">
+              <object idref="ClassModel2"/>
+             </void>
+             <void property="target">
+              <object idref="ClassModel0"/>
+             </void>
+             <void property="toMultiplicity">
+              <string>1</string>
+             </void>
+            </object>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="sourceConnections">
+      <void method="add">
+       <object idref="AssociationModel0"/>
+      </void>
+     </void>
+     <void property="targetConnections">
+      <void method="add">
+       <object idref="AssociationModel1"/>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object idref="ClassModel1"/>
+   </void>
+   <void method="add">
+    <object idref="ClassModel2"/>
+   </void>
+  </void>
+ </object>
+</java>
